@@ -9,7 +9,7 @@ React Native module for record and playing sound in realtime
 Edit `android/settings.gradle` to declare the project directory:
 ```
 include ':RNVoiceFilter', ':app'
-project(':RNVoiceFilter').projectDir = new File(rootProject.projectDir, '../path/to/react-native-voice-filter/android')
+project(':RNVoiceFilter').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice-filter/android')
 ```
 
 Edit `android/app/build.gradle` to declare the project dependency:
