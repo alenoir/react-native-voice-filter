@@ -1,15 +1,33 @@
 {
+  "name": "react-native-voice-filter",
+  "version": "1.0.0",
+  "description": "React Native module for record and playing sound in realtime",
   "author": {
     "email": "antoine.alenoir@gmail.com",
     "name": "Antoine Lenoir"
   },
-  "license": "MIT",
+  "keywords": [
+    "voice",
+    "react-native",
+    "android",
+    "filter",
+    "record",
+    "play"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "main": "index.js",
-  "name": "react-native-voice-filter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alenoir/react-native-voice-filter"
+  },
+  "bugs": {
+    "url": "https://github.com/alenoir/react-native-voice-filter/issues"
+  },
+  "homepage": "https://github.com/alenoir/react-native-voice-filter",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.8.0"
-  },
-  "readme": "ERROR: No README data found!",
-  "scripts": {},
-  "version": "0.0.1"
+  }
 }
